@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: logging-server
+Version: 0.1.0
+Summary: Solar logging server template
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.115.12
+Requires-Dist: requests>=2.32.3
+Requires-Dist: uvicorn>=0.34.1
+Requires-Dist: websockets>=15.0.1
