@@ -1,0 +1,58 @@
+
+============================================================
+Bootstrap error at 2025-06-14T10:29:22.523592
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "D:\private\zaJedno\MVP\services\api\bootstrap.py", line 28, in <module>
+    from api.routes import app
+  File "D:\private\zaJedno\MVP\services\api\routes.py", line 37, in <module>
+    from solar.access import User
+  File "D:\private\zaJedno\MVP\services\solar\__init__.py", line 1, in <module>
+    from .table import Table, ColumnDetails
+  File "D:\private\zaJedno\MVP\services\solar\table.py", line 16, in <module>
+    from psycopg.rows import dict_row
+  File "C:\Users\vladimir\AppData\Roaming\Python\Python312\site-packages\psycopg\__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\vladimir\AppData\Roaming\Python\Python312\site-packages\psycopg\pq\__init__.py", line 116, in <module>
+    import_from_libpq()
+  File "C:\Users\vladimir\AppData\Roaming\Python\Python312\site-packages\psycopg\pq\__init__.py", line 108, in import_from_libpq
+    raise ImportError(
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+
+============================================================
+Bootstrap error at 2025-06-14T10:53:49.806118
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "D:\private\zaJedno\MVP\services\api\bootstrap.py", line 28, in <module>
+    from api.routes import app
+  File "D:\private\zaJedno\MVP\services\api\routes.py", line 37, in <module>
+    from solar.access import User
+  File "D:\private\zaJedno\MVP\services\solar\__init__.py", line 1, in <module>
+    from .table import Table, ColumnDetails
+  File "D:\private\zaJedno\MVP\services\solar\table.py", line 16, in <module>
+    from psycopg.rows import dict_row
+  File "C:\Users\vladimir\AppData\Roaming\Python\Python312\site-packages\psycopg\__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\vladimir\AppData\Roaming\Python\Python312\site-packages\psycopg\pq\__init__.py", line 116, in <module>
+    import_from_libpq()
+  File "C:\Users\vladimir\AppData\Roaming\Python\Python312\site-packages\psycopg\pq\__init__.py", line 108, in import_from_libpq
+    raise ImportError(
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found

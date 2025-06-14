@@ -1,0 +1,110 @@
+[2025-06-14T10:19:11.074Z] [INFO] Vite dev server started
+[2025-06-14T10:19:11.087Z] [INFO] 
+  [32m[1mVITE[22m v6.0.11[39m  [2mready in [0m[1m154[22m[2m[0m ms[22m
+
+[2025-06-14T10:19:11.087Z] [INFO]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2025-06-14T10:19:11.088Z] [INFO]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.100.76:[1m5173[22m/[39m
+[2025-06-14T10:19:11.088Z] [INFO]   [32m➜[39m  [1mNetwork[22m: [36mhttp://172.30.144.1:[1m5173[22m/[39m
+[2025-06-14T10:19:11.088Z] [INFO] [2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2025-06-14T10:19:48.338Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:19:48.342Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:19:48.605Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:19:48.606Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:19:48.607Z] [ERROR] Error fetching home page data: TypeError: Failed to fetch
+TypeError: Failed to fetch
+    at window.fetch (http://localhost:5173/src/logger.ts:51:26)
+    at o (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:232:32)
+    at Object.post (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:252:337)
+    at projectServiceGetFeaturedProjects (http://localhost:5173/src/lib/sdk/sdk.gen.ts:19:45)
+    at fetchData (http://localhost:5173/src/components/pages/HomePage.tsx:45:40)
+    at http://localhost:5173/src/components/pages/HomePage.tsx:72:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:16963:34)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18206:19)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18179:17)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18169:15)
+[2025-06-14T10:20:00.287Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_all_projects - Failed to fetch
+[2025-06-14T10:20:00.288Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_all_projects - Failed to fetch
+[2025-06-14T10:20:00.288Z] [ERROR] Error fetching projects: TypeError: Failed to fetch
+TypeError: Failed to fetch
+    at window.fetch (http://localhost:5173/src/logger.ts:51:26)
+    at o (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:232:32)
+    at Object.post (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:252:337)
+    at projectServiceGetAllProjects (http://localhost:5173/src/lib/sdk/sdk.gen.ts:3:45)
+    at fetchProjects (http://localhost:5173/src/components/pages/ProjectsPage.tsx:76:26)
+    at http://localhost:5173/src/components/pages/ProjectsPage.tsx:69:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:16963:34)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18206:19)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18179:17)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18169:15)
+[2025-06-14T10:20:05.222Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:20:05.225Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:20:05.226Z] [ERROR] Error fetching home page data: TypeError: Failed to fetch
+TypeError: Failed to fetch
+    at window.fetch (http://localhost:5173/src/logger.ts:51:26)
+    at o (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:232:32)
+    at Object.post (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:252:337)
+    at projectServiceGetFeaturedProjects (http://localhost:5173/src/lib/sdk/sdk.gen.ts:19:45)
+    at fetchData (http://localhost:5173/src/components/pages/HomePage.tsx:45:40)
+    at http://localhost:5173/src/components/pages/HomePage.tsx:72:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:16963:34)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18206:19)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18179:17)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18169:15)
+[2025-06-14T10:20:39.670Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:20:39.670Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:20:39.930Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:20:39.931Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:20:39.931Z] [ERROR] Error fetching home page data: TypeError: Failed to fetch
+TypeError: Failed to fetch
+    at window.fetch (http://localhost:5173/src/logger.ts:51:26)
+    at o (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:232:32)
+    at Object.post (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:252:337)
+    at projectServiceGetFeaturedProjects (http://localhost:5173/src/lib/sdk/sdk.gen.ts:19:45)
+    at fetchData (http://localhost:5173/src/components/pages/HomePage.tsx:45:40)
+    at http://localhost:5173/src/components/pages/HomePage.tsx:72:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:16963:34)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18206:19)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18179:17)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18169:15)
+[2025-06-14T10:21:17.749Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:21:17.749Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:21:20.105Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:21:20.105Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:21:20.315Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:21:20.316Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:21:20.319Z] [ERROR] Error fetching home page data: TypeError: Failed to fetch
+TypeError: Failed to fetch
+    at window.fetch (http://localhost:5173/src/logger.ts:51:26)
+    at o (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:232:32)
+    at Object.post (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=41325a0c:252:337)
+    at projectServiceGetFeaturedProjects (http://localhost:5173/src/lib/sdk/sdk.gen.ts:19:45)
+    at fetchData (http://localhost:5173/src/components/pages/HomePage.tsx:45:40)
+    at http://localhost:5173/src/components/pages/HomePage.tsx:72:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:16963:34)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18206:19)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18179:17)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=da1fe949:18169:15)
+[2025-06-14T10:54:03.596Z] [INFO] Vite dev server started
+[2025-06-14T10:54:03.605Z] [INFO] 
+  [32m[1mVITE[22m v6.0.11[39m  [2mready in [0m[1m249[22m[2m[0m ms[22m
+
+[2025-06-14T10:54:03.606Z] [INFO]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2025-06-14T10:54:03.606Z] [INFO]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.100.76:[1m5173[22m/[39m
+[2025-06-14T10:54:03.606Z] [INFO]   [32m➜[39m  [1mNetwork[22m: [36mhttp://172.30.144.1:[1m5173[22m/[39m
+[2025-06-14T10:54:03.606Z] [INFO] [2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2025-06-14T10:54:13.848Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:54:13.852Z] [ERROR] FETCH_ERROR: https://localhost/api/auth/token - Failed to fetch
+[2025-06-14T10:54:14.081Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:54:14.083Z] [ERROR] FETCH_ERROR: https://localhost/api/project_service/get_featured_projects - Failed to fetch
+[2025-06-14T10:54:14.084Z] [ERROR] Error fetching home page data: TypeError: Failed to fetch
+TypeError: Failed to fetch
+    at window.fetch (http://localhost:5173/src/logger.ts:51:26)
+    at o (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=2c97824b:232:32)
+    at Object.post (http://localhost:5173/node_modules/.vite/deps/@hey-api_client-fetch.js?v=2c97824b:252:337)
+    at projectServiceGetFeaturedProjects (http://localhost:5173/src/lib/sdk/sdk.gen.ts:19:45)
+    at fetchData (http://localhost:5173/src/components/pages/HomePage.tsx:45:40)
+    at http://localhost:5173/src/components/pages/HomePage.tsx:72:5
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=2c97824b:16963:34)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=2c97824b:18206:19)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=2c97824b:18179:17)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/chunk-HBJ3AJOL.js?v=2c97824b:18169:15)
